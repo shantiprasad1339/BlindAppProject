@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .speakButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+background-color: #0d46ff;
+color: white;
+border-radius: 5px;
+position: fixed;
+bottom: 5%;
+left: 5%;
+  }
+  .StopButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+background-color: #de0202;
+color: white;
+border-radius: 5px;
+position: fixed;
+
+bottom: 5%;
+left: 50%;
+  }
+  .speakButton2{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+background-color: #1d574b;
+color: white;
+border-radius: 5px;
+position: fixed;
+
+bottom: 5%;
+right: 5%;
+  }
