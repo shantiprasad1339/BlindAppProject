@@ -4,7 +4,7 @@ import MOCK_DATA from "./MOCK_DATA.json";
 import { COLUMNS } from "./Columns.js";
 import "./Table.css";
 import { useSpeechSynthesis, useSpeechRecognition } from "react-speech-kit";
-import Home from "./home/home/Home";
+
 
 
 function TableComponent({file}) {
@@ -51,7 +51,7 @@ function TableComponent({file}) {
   const handleStop = () => {
     cancel();
   };
-console.log(file);
+
   return (
 
 <>

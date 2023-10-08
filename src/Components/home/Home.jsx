@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import * as XLSX from 'xlsx'
-import Table from '../../Table'
+import Table from '../Table'
 import './home.css';
 import { Box } from '@chakra-ui/react';
 
@@ -66,30 +66,22 @@ const Home = () => {
 
 
 
-                            {excelFileError ? <div className='text-danger'
+                            {/* {excelFileError ? <div className='text-danger'
                                 style={{ marginTop: 5 + 'px' }}>{excelFileError}</div>
                                 : <p>Enter the Correct Format of Data</p>
-                            }
+                            } */}
 
                         </form>
                     </div>
 
                     <br></br>
 
-
-
-
-
-
-                    {/* view file section */}
-
-
                 </Box>
             </div>
-            <Table
+            {excelData && <Table
                 file={excelData}
-               
-            />
+
+            />}
         </>
     );
 };
